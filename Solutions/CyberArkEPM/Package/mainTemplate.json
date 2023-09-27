@@ -334,7 +334,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('DataConnector-', last(split(variables('_dataConnectorId1'),'/'))))]",
               "properties": {
                 "parentId": "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/dataConnectors', variables('_dataConnectorContentId1'))]",
@@ -364,7 +364,7 @@
     },
     {
       "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2022-10-01",
       "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('DataConnector-', last(split(variables('_dataConnectorId1'),'/'))))]",
       "dependsOn": [
         "[variables('_dataConnectorId1')]"
@@ -580,7 +580,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('Parser-', last(split(variables('_parserId1'),'/'))))]",
               "dependsOn": [
                 "[variables('_parserName1')]"
@@ -627,7 +627,7 @@
     },
     {
       "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2022-10-01",
       "location": "[parameters('workspace-location')]",
       "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('Parser-', last(split(variables('_parserId1'),'/'))))]",
       "dependsOn": [
@@ -718,7 +718,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId1'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 1",
@@ -810,7 +810,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId2'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 2",
@@ -902,7 +902,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId3'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 3",
@@ -994,7 +994,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId4'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 4",
@@ -1086,7 +1086,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId5'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 5",
@@ -1178,7 +1178,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId6'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 6",
@@ -1270,7 +1270,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId7'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 7",
@@ -1362,7 +1362,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId8'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 8",
@@ -1454,7 +1454,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId9'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 9",
@@ -1546,7 +1546,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('HuntingQuery-', last(split(variables('huntingQueryId10'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Hunting Query 10",
@@ -1655,7 +1655,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId1'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 1",
@@ -1764,7 +1764,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId2'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 2",
@@ -1873,7 +1873,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId3'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 3",
@@ -1986,7 +1986,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId4'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 4",
@@ -2095,7 +2095,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId5'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 5",
@@ -2208,7 +2208,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId6'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 6",
@@ -2323,7 +2323,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId7'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 7",
@@ -2436,7 +2436,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId8'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 8",
@@ -2549,7 +2549,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId9'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 9",
@@ -2662,7 +2662,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('AnalyticsRule-', last(split(variables('analyticRuleId10'),'/'))))]",
               "properties": {
                 "description": "CyberArkEPM Analytics Rule 10",
@@ -2744,7 +2744,7 @@
             },
             {
               "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-              "apiVersion": "2022-01-01-preview",
+              "apiVersion": "2022-10-01",
               "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',concat('Workbook-', last(split(variables('workbookId1'),'/'))))]",
               "properties": {
                 "description": "@{workbookKey=CyberArkEPMWorkbook; logoFileName=CyberArk_Logo.svg; description=Sets the time name for analysis; dataTypesDependencies=System.Object[]; dataConnectorsDependencies=System.Object[]; previewImagesFileNames=System.Object[]; version=1.0.0; title=CyberArk EPM; templateRelativePath=CyberArkEPM.json; subtitle=; provider=CyberArk}.description",
@@ -2788,7 +2788,7 @@
     },
     {
       "type": "Microsoft.OperationalInsights/workspaces/providers/metadata",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2022-10-01",
       "location": "[parameters('workspace-location')]",
       "properties": {
         "version": "2.0.0",
